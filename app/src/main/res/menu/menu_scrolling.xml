@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jedisebas.aurebesh.ScrollingActivity">
+    <item
+        android:id="@+id/myswitch"
+        android:checkable="true"
+        android:title="Switch"
+        app:actionViewClass="androidx.appcompat.widget.SwitchCompat"
+        app:showAsAction="always"
+        android:orderInCategory="80"/>
+</menu>
